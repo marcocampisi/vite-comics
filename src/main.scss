@@ -3,7 +3,37 @@
 // HEADER
 
 .headerContainer {
-    width: 100wv;
+    width: 100vw;
     height: 150px;
-    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include debug;
+
+    > .logoContainer {
+        margin: 0 100px 0 20px;
+    }
+
+    > .navContainer {
+        background-color: antiquewhite;
+        margin-left: 200px;
+        width: 60%;
+
+        > nav ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            list-style: none;
+
+            li {
+                width: 50px;
+                height: 20px;
+                margin: 0 10px;
+                background-color: aquamarine;
+                cursor: pointer;
+            }
+        }
+
+    }
 }
