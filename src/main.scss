@@ -37,3 +37,32 @@
 
     }
 }
+
+// MAIN
+
+.mainContainer {
+    width: 100wv;
+    @include debug;
+
+    > .topContent {
+        background-color: $topContColor;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+
+        h2 {
+            color: white;
+            margin: 0 50px;
+        }
+    }
+
+    > .midContent {
+        background-color: $midContColor;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 200px;
+    }
+}
