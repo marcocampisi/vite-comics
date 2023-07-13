@@ -9,7 +9,9 @@ export default {
 </script>
 
 <template>
-  
+  <div class="headerContainer">
+    
+  </div>
 </template>
 
 <style scoped>

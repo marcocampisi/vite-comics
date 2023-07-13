@@ -16,13 +16,9 @@ export default {
 </script>
 
 <template>
-    <div class="app">
-        <Header />
-        <Main />
-        <Footer />
-    </div>
+    <Header />
+    <Main />
+    <Footer />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

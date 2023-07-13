@@ -1,1 +1,9 @@
 @use './variables.scss' as *;
+
+// HEADER
+
+.headerContainer {
+    width: 100wv;
+    height: 150px;
+    background-color: lightcoral;
+}
