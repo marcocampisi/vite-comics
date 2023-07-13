@@ -91,3 +91,35 @@
 
     }
 }
+
+// FOOTER
+
+.footerContainer {
+    width: 100wv;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    @include debug;
+
+    > .signUp {
+        width: 120px;
+        height: 60px;
+        background-color: aquamarine;
+    }
+
+    > .socials {
+        display: flex;
+        align-items: center;
+
+        h2 {
+            margin-right: 30px;
+        }
+
+        > .socialsLogos {
+            img {
+                margin: 0 10px;
+            }
+        }
+    }
+}
