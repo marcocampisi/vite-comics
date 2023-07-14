@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      
+
     }
   }
 }
@@ -13,7 +13,30 @@ export default {
     <div class="topContent">
       <h2> Content goes here </h2>
     </div>
-    <div class="midContent"></div>
+    <div class="midContent">
+      <div class="midContainer">
+        <div class="midLink">
+          <img src="../assets/img/buy-comics-digital-comics.png" alt="">
+          <span>DIGITAL COMICS</span>
+        </div>
+        <div class="midLink">
+          <img src="../assets/img/buy-comics-merchandise.png" alt="">
+          <span>DC MERCHANDISE</span>
+        </div>
+        <div class="midLink">
+          <img src="../assets/img/buy-comics-subscriptions.png" alt="">
+          <span>SUBSCRIPTION</span>
+        </div>
+        <div class="midLink">
+          <img src="../assets/img/buy-comics-shop-locator.png" alt="">
+          <span>COMIC SHOP LOCATOR</span>
+        </div>
+        <div class="midLink">
+          <img src="../assets/img/buy-dc-power-visa.svg" alt="">
+          <span>DC POWER VISA</span>
+        </div>
+      </div>
+    </div>
     <div class="botContent">
       <div class="dc-logo"></div>
       <div class="linksCol">
@@ -55,6 +78,4 @@ export default {
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

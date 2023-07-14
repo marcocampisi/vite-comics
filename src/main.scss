@@ -11,6 +11,7 @@
 
     > .logoContainer {
         margin: 0 100px 0 20px;
+        cursor: pointer;
     }
 
     > .navContainer {
@@ -80,10 +81,34 @@
         justify-content: center;
         width: 100%;
         height: 250px;
+
+        > .midContainer {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            > .midLink {
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+
+                img {
+                    height: 60px;
+                    margin-left: 60px;
+                }
+
+                span {
+                    color: white;
+                    margin-left: 10px;
+                }
+            }
+        }
     }
 
     > .botContent {
-        background-image: url('../src/assets/img/footer-bg.jpg');
+        background-image: url("../src/assets/img/footer-bg.jpg");
         width: 100%;
         height: 500px;
         display: flex;
@@ -96,10 +121,10 @@
             right: 5%;
             width: 50%;
             height: 100%;
-            background-image: url('../src/assets/img/dc-logo-bg.png');     
+            background-image: url("../src/assets/img/dc-logo-bg.png");
             background-size: cover;
             background-position: center;
-            background-repeat: no-repeat;       
+            background-repeat: no-repeat;
         }
 
         > .linksCol {
