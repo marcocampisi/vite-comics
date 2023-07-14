@@ -1,9 +1,14 @@
 <script>
+import Comics from './Comics.vue';
+
 export default {
   data() {
     return {
 
     }
+  },
+  components: {
+    Comics
   }
 }
 </script>
@@ -11,7 +16,9 @@ export default {
 <template>
   <div class="mainContainer">
     <div class="topContent">
-      <h2> Content goes here </h2>
+      <div class="comicsContainer">
+
+      </div>
     </div>
     <div class="midContent">
       <div class="midContainer">
