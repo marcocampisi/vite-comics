@@ -11,21 +11,21 @@ export default {
 <template>
   <div class="headerContainer">
     <div class="logoContainer">
-      <img src="https://picsum.photos/id/1060/100/100" alt="">
+      <img src="../assets/img/dc-logo.png" alt="">
     </div>
     <div class="navContainer">
       <nav>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>CHARACTERS</li>
+          <li>COMICS</li>
+          <li>MOVIES</li>
+          <li>TV</li>
+          <li>GAMES</li>
+          <li>COLLECTIBLES</li>
+          <li>VIDEOS</li>
+          <li>FANS</li>
+          <li>NEWS</li>
+          <li>SHOP</li>
         </ul>
       </nav>
     </div>
