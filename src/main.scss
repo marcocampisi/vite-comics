@@ -254,6 +254,10 @@
             img {
                 margin: 0 10px;
                 cursor: pointer;
+
+                &:hover {
+                    opacity: 0.5;
+                }
             }
         }
     }
