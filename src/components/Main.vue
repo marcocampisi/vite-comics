@@ -87,6 +87,7 @@ export default {
 </script>
 
 <template>
+  <div class="jumbo"></div>
   <div class="mainContainer">
     <div class="topContent">
       <h2>CURRENT SERIES</h2>
