@@ -37,20 +37,20 @@
                 margin: 0 20px;
                 cursor: pointer;
                 position: relative;
-            }
 
-            li:hover {
-                color: $navHoverColor;
-            }
+                &:hover {
+                    color: $navHoverColor;
 
-            li:hover::after {
-                content: "";
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                height: 5px;
-                background-color: $navHoverColor;
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 5px;
+                        background-color: $navHoverColor;
+                    }
+                }
             }
         }
     }
@@ -113,7 +113,7 @@
         height: 500px;
         display: flex;
         align-items: center;
-        position: absolute;
+        position: relative;
 
         > .dc-logo {
             position: absolute;
@@ -156,10 +156,22 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: $footerColor;
 
     > .signUp {
-        width: 120px;
-        height: 60px;
+        button {
+            background: none;
+            border: 4px solid $midContColor;
+            padding: 20px;
+            font-size: 1.5rem;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgba($color: #ffffff, $alpha: 0.2);
+            }
+        }
     }
 
     > .socials {
@@ -168,11 +180,13 @@
 
         h2 {
             margin-right: 30px;
+            color: $midContColor;
         }
 
         > .socialsLogos {
             img {
                 margin: 0 10px;
+                cursor: pointer;
             }
         }
     }
